@@ -21,3 +21,9 @@ print("Sondan bakma işlemi:",seri.tail(2))
 #pandas da seri oluşturmak istersek index atama işlemlerini de kendimiz yapabiliriz.
 seri1=pd.Series([10,11,12,13,14,15],index=["a","b","c","d","e","f"])
 print(seri1)
+
+
+#Sözlük üzerinden Liste oluşturma işlemleri
+
+sozluk=pd.Series({"reg":10,"log":11,"cart":12})
+print(sozluk)
