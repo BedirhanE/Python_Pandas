@@ -27,3 +27,15 @@ print(seri1)
 
 sozluk=pd.Series({"reg":10,"log":11,"cart":12})
 print(sozluk)
+
+#eleman işlemleri
+
+seri=pd.Series([100,200,300,400],index=["x","y","z","t"])#seri oluşt. indexleme işlemi yaptım.
+print(seri)
+print(seri.dtype)
+
+print(list(seri.item()))
+
+#eleman sorgulama işlemi
+
+print("100" in seri)
