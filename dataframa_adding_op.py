@@ -48,4 +48,12 @@ m=np.random.randint(1,30, size=(10,3))
 df=pd.DataFrame(m,columns=["var1","var2","var3"])
 print(df)
 
-#Loc tanımlandığı şekli ile seçim yapmak için kullanılır.
+#Loc tanımlandığı şekli ile seçim yapmak için kullanılır.(verilen indexs lere bağlı kalarak)
+print(df.loc[0:3])
+
+#iloc:alışık olduğumuz indeksleme mantığı ile seçim yapar
+print(df.iloc[0:3])
+print(df.iloc[0,0])
+print(df.iloc[0:3]["var3"])
+print(df["var3"])
+
