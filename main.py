@@ -1,5 +1,5 @@
 
-#Pandas Kütüphanesi kullanımı ve örnekler.yapay zeka da da kullanılıyor bu kütüphane
+#Pandas Kütüphanesi kullanımı ve örnekler.yapay zeka da da kullanılıyor bu kütüphane.
 
 
 import pandas as pd #pandas importlama işlemi
