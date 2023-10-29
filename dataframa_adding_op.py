@@ -40,5 +40,12 @@ print("var1" in df)
 l=["var1","var4","var3"] #Sutun bazında sorgulama işlemi
 for i in l:
     print(i in df)
+#Gözlem ve değişken Seçimi
+import numpy as np
+import  pandas as pd
 
+m=np.random.randint(1,30, size=(10,3))
+df=pd.DataFrame(m,columns=["var1","var2","var3"])
+print(df)
 
+#Loc tanımlandığı şekli ile seçim yapmak için kullanılır.
