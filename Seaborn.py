@@ -19,4 +19,6 @@ plt.xlabel("Sınıf")
 plt.ylabel("Ortalama Yaş")
 plt.show()
 
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
 
