@@ -57,3 +57,23 @@ print(df.iloc[0,0])
 print(df.iloc[0:3]["var3"])
 print(df["var3"])
 
+print(df[df.var1>15])#data frame üzerinde koşul çalıştırma işlemi
+print("***********************************")
+print(df[(df.var1>10)&(df.var1<20)])#eğer Birden fazla koşul kullanıcaksak
+print("***********************************")
+print(df[(df.var1>10)&(df.var2<20)])
+#DataFrame Birleştirme işlemleri
+
+
+m=np.random.randint(1,30, size=(5,3))
+df1=pd.DataFrame(m,columns=["var1","var2","var3"])
+print("DataFrame 1:",df1)
+
+df2=df1+50
+print("dataframe 2:",df2)
+
+#DataFrame leri birleştirme işlemi
+print("DataFrame1 ve DataFrame2 nin birleştirilmiş hali:",pd.concat([df1,df2]))
+
+#İndex sıralarının doğru şekilde yazılmış hali
+print("DataFrame1 ve DataFrame2 nin birleştirilmiş hali:",pd.concat([df1,df2],ignore_index=True))
