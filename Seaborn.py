@@ -1,6 +1,6 @@
 import seaborn as sns
 
-print("-------------------------------------------")
+print("--------------------------------------------")
 #Veri görselleştirme yaparak veri çekmme işlemi
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -19,6 +19,6 @@ plt.xlabel("Sınıf")
 plt.ylabel("Ortalama Yaş")
 plt.show()
 
-print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 
